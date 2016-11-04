@@ -1,23 +1,10 @@
-/*
-Theme Name: Dark Joe
-Theme URI: http://themewagon.com/demo/DarkJoe/
-Author: ThemeWagon
-Author URI: http://themewagon.com/
-Description: Slick One page portfolio site for Freelancers powered by Bootstrap 3.
-Version: 1.14.11
-License: GNU General Public License v3
-License URI: http://www.gnu.org/licenses/gpl-3.0.txt
-Tags: dark, white, one page, parallax, responsive-layout, full-width-template
-Text Domain: darkjoe
-*/
-
 /**
 * Table of Contents:
 *
 * 01.0 - Universal
 * 02.0 - Header
 * 03.0 - Navigation
-* 04.0 - Services
+* 04.0 - biodata
 * 05.0 - Portfolio
 * 06.0 - Testimonial
 * 07.0 - Contact
@@ -95,7 +82,7 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	background: url(../images/bg.jpg) no-repeat;
+	background: url(../images/bgtest2.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% -50px;
@@ -206,23 +193,23 @@ header{
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  04 - Services
+//  04 - biodata
 /////////////////////////////////////////////////////////////////////*/
 
 
 
-.services {
+.biodata {
     max-width: 293px;
     height: 263px;
 }
 .exp{
 	padding-top: 76px;
 }
-.service-area {
+.biodata-area {
     margin: 80px 0px 40px 0px;
 }
 
-.service-wrap {
+.biodata-wrap {
     width: 100%;
     height: 100%;
     border: 1px solid #B5B5B5;
@@ -230,18 +217,18 @@ header{
     display: block;
     border-radius: 50%;
 }
-.service-wrap i {
+.biodata-wrap i {
     margin-top: 40px;
     transition: all 0.3s ease;
 }
-.service-wrap:hover i {
+.biodata-wrap:hover i {
     color: #e66f69;
 }
-.service-wrap p {
+.biodata-wrap p {
     padding: 0px 40px;
     font-size: 13px;
 }
-.service-wrap h3 {
+.biodata-wrap h3 {
     margin: 10px 0px;
 }
 .pe-dj {
@@ -438,7 +425,7 @@ header{
     height: 100%;
 }
 #contact-area {
-    background: rgba(0, 0, 0, 0.7);
+    background: #393939;
     width: 100%;
     position: relative;
     padding: 80px 0px 60px 0px;
@@ -588,18 +575,18 @@ footer {
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
 
-	.services {
+	.biodata {
 		max-width: 293px;
 		height: 213px;
 	}
-	.service-wrap i {
+	.biodata-wrap i {
 	    font-size: 4em;
 	    margin-top: 28px;
 	}
-	.service-wrap h3 {
+	.biodata-wrap h3 {
 	    font-size: 1.4em;
 	}
-	.service-wrap p {
+	.biodata-wrap p {
 	    font-size: 11px;
 	    padding: 0px 35px;
 	}
@@ -607,13 +594,13 @@ footer {
 
 @media all and (max-width: 991px) and (min-width: 768px) {
 
-	.services {
+	.biodata {
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
-	.service-wrap p {
+	.biodata-wrap p {
 		padding: 0px 40px;
 		font-size: 14px;
 	}
@@ -631,7 +618,7 @@ footer {
 }
 
 @media all and (max-width: 768px) {
-	.services {
+	.biodata {
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
@@ -640,7 +627,7 @@ footer {
 	.pe-dj {
 		font-size: 6em;
 	}
-	.service-wrap i {
+	.biodata-wrap i {
 		margin-top: 50px;
 	}
 	.centered p {
