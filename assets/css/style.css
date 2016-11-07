@@ -87,13 +87,9 @@ header{
 	background-attachment: fixed;
 	background-position: 50% -50px;
 }
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 .center {
-    text-align: center;
+    /*text-align: center;*/
     color: #fff;
 }
 .bigheadline {
