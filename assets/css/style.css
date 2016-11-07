@@ -87,6 +87,11 @@ header{
 	background-attachment: fixed;
 	background-position: 50% -50px;
 }
+#text-carousel-intro-section .caption {
+    position: relative;
+    top: 50%;
+    margin-top: -70px;
+}
 
 .center {
     text-align: center;
