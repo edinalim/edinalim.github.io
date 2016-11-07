@@ -93,7 +93,7 @@ header{
     height: auto;
 }
 .center {
-    text-align: center;
+    /*text-align: center;*/
     color: #fff;
 }
 .bigheadline {
